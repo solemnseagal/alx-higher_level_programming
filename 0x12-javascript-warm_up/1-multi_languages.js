@@ -1,4 +1,4 @@
 #!/usr/bin/node
-console.log("C is fun”);
-console.log("Python is cool");
-console.log("Javascript is amazing");
+['C is fun', 'Python is cool', 'Javascript is amazing'].forEach(
+	el => console.log(el)
+);
